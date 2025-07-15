@@ -78,7 +78,7 @@ Siga os passos abaixo para configurar o ambiente do projeto:
 2.  **Execute o script:**
     Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no seu terminal:
     ```bash
-    python buscar_enderecos_corrigido.py
+    python find_address.py
     ```
 
 3.  **Verifique os resultados:**
