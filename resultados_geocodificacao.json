@@ -1,0 +1,186 @@
+{
+  "formatVersion": "0.0.1",
+  "batchItems": [
+    {
+      "statusCode": 200,
+      "response": {
+        "summary": {
+          "query": "avenida paulista 1578 são paulo sp",
+          "queryType": "NON_NEAR",
+          "queryTime": 118,
+          "numResults": 1,
+          "offset": 0,
+          "totalResults": 30,
+          "fuzzyLevel": 1
+        },
+        "results": [
+          {
+            "type": "Point Address",
+            "id": "YawDYf4_R_pmrjxCDZGb0Q",
+            "score": 12.0984487534,
+            "matchConfidence": {
+              "score": 1
+            },
+            "address": {
+              "streetNumber": "1578",
+              "streetName": "Avenida Paulista",
+              "municipalitySubdivision": "Bela Vista",
+              "municipality": "São Paulo",
+              "countrySubdivision": "São Paulo",
+              "countrySubdivisionName": "São Paulo",
+              "countrySubdivisionCode": "SP",
+              "postalCode": "01310",
+              "extendedPostalCode": "01310-200",
+              "countryCode": "BR",
+              "country": "Brasil",
+              "countryCodeISO3": "BRA",
+              "freeformAddress": "Avenida Paulista, 1578, 01310-200, São Paulo",
+              "localName": "São Paulo"
+            },
+            "position": {
+              "lat": -23.561365,
+              "lon": -46.6559207
+            },
+            "viewport": {
+              "topLeftPoint": {
+                "lat": -23.56047,
+                "lon": -46.6569
+              },
+              "btmRightPoint": {
+                "lat": -23.56226,
+                "lon": -46.65494
+              }
+            },
+            "entryPoints": [
+              {
+                "type": "main",
+                "position": {
+                  "lat": -23.56164,
+                  "lon": -46.6562
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "statusCode": 200,
+      "response": {
+        "summary": {
+          "query": "praça da sé são paulo sp",
+          "queryType": "NON_NEAR",
+          "queryTime": 167,
+          "numResults": 1,
+          "offset": 0,
+          "totalResults": 34,
+          "fuzzyLevel": 1
+        },
+        "results": [
+          {
+            "type": "Street",
+            "id": "0m-QCVUpyqze_y5Lfi9NqA",
+            "score": 12.6063928604,
+            "matchConfidence": {
+              "score": 1
+            },
+            "address": {
+              "streetName": "Praça da Sé",
+              "municipalitySubdivision": "Sé",
+              "municipality": "São Paulo",
+              "countrySubdivision": "São Paulo",
+              "countrySubdivisionName": "São Paulo",
+              "countrySubdivisionCode": "SP",
+              "countryCode": "BR",
+              "country": "Brasil",
+              "countryCodeISO3": "BRA",
+              "freeformAddress": "Praça da Sé, São Paulo",
+              "localName": "São Paulo"
+            },
+            "position": {
+              "lat": -23.5507943,
+              "lon": -46.6339117
+            },
+            "viewport": {
+              "topLeftPoint": {
+                "lat": -23.5489,
+                "lon": -46.63499
+              },
+              "btmRightPoint": {
+                "lat": -23.55249,
+                "lon": -46.63188
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "statusCode": 200,
+      "response": {
+        "summary": {
+          "query": "rua do russel 632 rio de janeiro rj",
+          "queryType": "NON_NEAR",
+          "queryTime": 254,
+          "numResults": 1,
+          "offset": 0,
+          "totalResults": 3,
+          "fuzzyLevel": 1
+        },
+        "results": [
+          {
+            "type": "Point Address",
+            "id": "1E--temE4X8Ey4-WUKgRmQ",
+            "score": 16.2544689178,
+            "matchConfidence": {
+              "score": 1
+            },
+            "address": {
+              "streetNumber": "632",
+              "streetName": "Rua do Russel",
+              "municipalitySubdivision": "Glória",
+              "municipality": "Rio de Janeiro",
+              "countrySubdivision": "Rio de Janeiro",
+              "countrySubdivisionName": "Rio de Janeiro",
+              "countrySubdivisionCode": "RJ",
+              "postalCode": "22210",
+              "extendedPostalCode": "22210-010",
+              "countryCode": "BR",
+              "country": "Brasil",
+              "countryCodeISO3": "BRA",
+              "freeformAddress": "Rua do Russel, 632, 22210-010, Rio de Janeiro",
+              "localName": "Rio de Janeiro"
+            },
+            "position": {
+              "lat": -22.9228769,
+              "lon": -43.1728224
+            },
+            "viewport": {
+              "topLeftPoint": {
+                "lat": -22.92198,
+                "lon": -43.1738
+              },
+              "btmRightPoint": {
+                "lat": -22.92378,
+                "lon": -43.17185
+              }
+            },
+            "entryPoints": [
+              {
+                "type": "main",
+                "position": {
+                  "lat": -22.92291,
+                  "lon": -43.17267
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "successfulRequests": 3,
+    "totalRequests": 3
+  }
+}

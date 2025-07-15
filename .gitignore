@@ -1,0 +1,14 @@
+# Arquivos de ambiente Python
+__pycache__/
+*.pyc
+venv/
+*.venv/
+env/
+*.env
+
+# Arquivo com segredos (nossa chave de API ficará aqui)
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
