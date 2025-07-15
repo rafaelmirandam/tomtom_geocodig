@@ -7,7 +7,7 @@
         "summary": {
           "query": "avenida paulista 1578 são paulo sp",
           "queryType": "NON_NEAR",
-          "queryTime": 118,
+          "queryTime": 165,
           "numResults": 1,
           "offset": 0,
           "totalResults": 30,
@@ -70,7 +70,7 @@
         "summary": {
           "query": "praça da sé são paulo sp",
           "queryType": "NON_NEAR",
-          "queryTime": 167,
+          "queryTime": 222,
           "numResults": 1,
           "offset": 0,
           "totalResults": 34,
@@ -121,7 +121,7 @@
         "summary": {
           "query": "rua do russel 632 rio de janeiro rj",
           "queryType": "NON_NEAR",
-          "queryTime": 254,
+          "queryTime": 291,
           "numResults": 1,
           "offset": 0,
           "totalResults": 3,

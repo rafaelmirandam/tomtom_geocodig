@@ -1,0 +1,1093 @@
+[
+    {
+        "original_search": {
+            "query": "restaurante italiano",
+            "context": "Avenida da Liberdade, Lisboa"
+        },
+        "found_results": [
+            {
+                "type": "POI",
+                "id": "imQullZvmrzYDom_gPPxUQ",
+                "score": 0.990380466,
+                "dist": 807.145619,
+                "info": "search:ta:620007000093650-PT",
+                "poi": {
+                    "name": "Allora Restaurante Italiano & Bar",
+                    "phone": "+351 21 006 4314",
+                    "categorySet": [
+                        {
+                            "id": 7315025
+                        }
+                    ],
+                    "url": "www.allora.pt",
+                    "categories": [
+                        "italian",
+                        "restaurant"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "RESTAURANT",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "restaurant"
+                                },
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "italian"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "8F",
+                    "streetName": "Avenida Fontes Pereira de Melo",
+                    "municipalitySubdivision": "Santo António",
+                    "municipality": "Lisbon",
+                    "countrySecondarySubdivision": "Lisbon",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "1050",
+                    "extendedPostalCode": "1050-121",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Avenida Fontes Pereira de Melo 8F, 1050 Lisbon",
+                    "localName": "Lisbon"
+                },
+                "position": {
+                    "lat": 38.727455,
+                    "lon": -9.14844
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 38.72835,
+                        "lon": -9.14959
+                    },
+                    "btmRightPoint": {
+                        "lat": 38.72656,
+                        "lon": -9.14729
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.72751,
+                            "lon": -9.14858
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "149J0q6UHO6k1twiEcyN9A",
+                "score": 0.987531364,
+                "dist": 789.469566,
+                "info": "search:ta:620006000039100-PT",
+                "poi": {
+                    "name": "L'Osteria Restaurante Italiano",
+                    "categorySet": [
+                        {
+                            "id": 7315025
+                        }
+                    ],
+                    "categories": [
+                        "italian",
+                        "restaurant"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "RESTAURANT",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "restaurant"
+                                },
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "italian"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "90",
+                    "streetName": "Rua Castilho",
+                    "municipalitySubdivision": "Santo António",
+                    "municipality": "Lisbon",
+                    "countrySecondarySubdivision": "Lisbon",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "1250",
+                    "extendedPostalCode": "1250-071",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua Castilho 90, 1250 Lisbon",
+                    "localName": "Lisbon"
+                },
+                "position": {
+                    "lat": 38.72478,
+                    "lon": -9.15307
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 38.72568,
+                        "lon": -9.15422
+                    },
+                    "btmRightPoint": {
+                        "lat": 38.72388,
+                        "lon": -9.15192
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.7247,
+                            "lon": -9.15322
+                        }
+                    },
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.72463,
+                            "lon": -9.15317
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "TAeFioNyAx2vF0eTpw0ePg",
+                "score": 0.9860963821,
+                "dist": 706.218372,
+                "info": "search:ta:620007000104481-PT",
+                "poi": {
+                    "name": "Il Mulino-Restaurante Italiano Lisboa",
+                    "phone": "+351 21 017 3663",
+                    "categorySet": [
+                        {
+                            "id": 7315025
+                        }
+                    ],
+                    "url": "www.ilmulinolisboa.com/",
+                    "categories": [
+                        "italian",
+                        "restaurant"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "RESTAURANT",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "restaurant"
+                                },
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "italian"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "30",
+                    "streetName": "Rua do Jardim do Regedor",
+                    "municipalitySubdivision": "Santa Maria Maior",
+                    "municipality": "Lisbon",
+                    "countrySecondarySubdivision": "Lisbon",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "1150",
+                    "extendedPostalCode": "1150-194",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua do Jardim do Regedor 30, 1150 Lisbon",
+                    "localName": "Lisbon"
+                },
+                "position": {
+                    "lat": 38.715727,
+                    "lon": -9.140434
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 38.71663,
+                        "lon": -9.14159
+                    },
+                    "btmRightPoint": {
+                        "lat": 38.71483,
+                        "lon": -9.13928
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.71567,
+                            "lon": -9.14035
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "uVf1jrrncqvT7Uz-aKTQLw",
+                "score": 0.9829255939,
+                "dist": 104.49761,
+                "info": "search:ta:620007000010238-PT",
+                "poi": {
+                    "name": "Arcádia Casa do Chocolate",
+                    "categorySet": [
+                        {
+                            "id": 7315025
+                        }
+                    ],
+                    "url": "arcadiachocolates.com",
+                    "categories": [
+                        "italian",
+                        "restaurant"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "RESTAURANT",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "restaurant"
+                                },
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "italian"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "180 D",
+                    "streetName": "Avenida da Liberdade",
+                    "municipalitySubdivision": "Santo António",
+                    "municipality": "Lisbon",
+                    "countrySecondarySubdivision": "Lisbon",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "1250",
+                    "extendedPostalCode": "1250-146",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Avenida da Liberdade 180 D, 1250 Lisbon",
+                    "localName": "Lisbon"
+                },
+                "position": {
+                    "lat": 38.720195,
+                    "lon": -9.144675
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 38.72109,
+                        "lon": -9.14583
+                    },
+                    "btmRightPoint": {
+                        "lat": 38.7193,
+                        "lon": -9.14352
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.72,
+                            "lon": -9.1449
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "r_KTbshd6VcyS7WPYLQD_A",
+                "score": 0.9782144427,
+                "dist": 324.230265,
+                "info": "search:ta:620006000038381-PT",
+                "poi": {
+                    "name": "Pizzaria Luzzo Santa Marta",
+                    "phone": "+351 21 357 0518",
+                    "categorySet": [
+                        {
+                            "id": 7315025
+                        }
+                    ],
+                    "url": "www.pizzarialuzzo.pt",
+                    "categories": [
+                        "italian",
+                        "restaurant"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "RESTAURANT",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "restaurant"
+                                },
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "italian"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "37C",
+                    "streetName": "Rua de Santa Marta",
+                    "municipalitySubdivision": "Santo António",
+                    "municipality": "Lisbon",
+                    "countrySecondarySubdivision": "Lisbon",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "1150",
+                    "extendedPostalCode": "1150-292",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua de Santa Marta 37C, 1150 Lisbon",
+                    "localName": "Lisbon"
+                },
+                "position": {
+                    "lat": 38.723406,
+                    "lon": -9.145789
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 38.72431,
+                        "lon": -9.14694
+                    },
+                    "btmRightPoint": {
+                        "lat": 38.72251,
+                        "lon": -9.14464
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 38.72341,
+                            "lon": -9.14569
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_search": {
+            "query": "museu",
+            "context": "Porto, Portugal"
+        },
+        "found_results": [
+            {
+                "type": "POI",
+                "id": "N2Wpi586K526MeDuwZFt2g",
+                "score": 0.9911962748,
+                "dist": 82.505502,
+                "info": "search:ta:620006000490812-PT",
+                "poi": {
+                    "name": "O Grande Museu Das Casinhas de Bonecas",
+                    "phone": "+351 918 592 689",
+                    "categorySet": [
+                        {
+                            "id": 7317
+                        }
+                    ],
+                    "url": "www.museucasinhas.com",
+                    "categories": [
+                        "museum"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "MUSEUM",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "museum"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "128",
+                    "streetName": "Rua Do Alferes Malheiro",
+                    "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+                    "municipality": "Porto",
+                    "countrySecondarySubdivision": "Porto",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "4000",
+                    "extendedPostalCode": "4000-286",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua Do Alferes Malheiro 128, 4000 Porto",
+                    "localName": "Porto"
+                },
+                "position": {
+                    "lat": 41.14961,
+                    "lon": -8.61099
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 41.15051,
+                        "lon": -8.61218
+                    },
+                    "btmRightPoint": {
+                        "lat": 41.14871,
+                        "lon": -8.6098
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.14959,
+                            "lon": -8.61126
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "gVvs2Va7Sch5Y_G4zY3IUQ",
+                "score": 0.9854863286,
+                "dist": 328.725306,
+                "info": "search:ta:620006000747645-PT",
+                "poi": {
+                    "name": "Silva Frade Art Gallery",
+                    "phone": "+351 913 465 448",
+                    "categorySet": [
+                        {
+                            "id": 7317
+                        }
+                    ],
+                    "url": "www.silvafrade.com",
+                    "categories": [
+                        "museum"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "MUSEUM",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "museum"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "86",
+                    "streetName": "Rua de Alexandre Braga",
+                    "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+                    "municipality": "Porto",
+                    "countrySecondarySubdivision": "Porto",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "4000",
+                    "extendedPostalCode": "4000-049",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua de Alexandre Braga 86, 4000 Porto",
+                    "localName": "Porto"
+                },
+                "position": {
+                    "lat": 41.149423,
+                    "lon": -8.606513
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 41.15032,
+                        "lon": -8.60771
+                    },
+                    "btmRightPoint": {
+                        "lat": 41.14852,
+                        "lon": -8.60532
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.14945,
+                            "lon": -8.60663
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "i5ZDK79ab0Uy2SpZrUPXTQ",
+                "score": 0.9806514382,
+                "dist": 105.579076,
+                "info": "search:ta:620006000475673-PT",
+                "poi": {
+                    "name": "Experience Trindade",
+                    "phone": "+351 22 207 5920",
+                    "categorySet": [
+                        {
+                            "id": 7317
+                        }
+                    ],
+                    "categories": [
+                        "museum"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "MUSEUM",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "museum"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "182",
+                    "streetName": "Praça Da Trindade",
+                    "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+                    "municipality": "Porto",
+                    "countrySecondarySubdivision": "Porto",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "4000",
+                    "extendedPostalCode": "4000-285",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Praça Da Trindade 182, 4000 Porto",
+                    "localName": "Porto"
+                },
+                "position": {
+                    "lat": 41.15105,
+                    "lon": -8.61073
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 41.15195,
+                        "lon": -8.61192
+                    },
+                    "btmRightPoint": {
+                        "lat": 41.15015,
+                        "lon": -8.60954
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.15105,
+                            "lon": -8.61073
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "78rWI8hu1H5lU_yZm4j4uA",
+                "score": 0.9804096818,
+                "dist": 386.428526,
+                "info": "search:ta:620007000097218-PT",
+                "poi": {
+                    "name": "Palace Museum-Espaço Palmeiras",
+                    "phone": "+351 914 865 994",
+                    "categorySet": [
+                        {
+                            "id": 7317
+                        }
+                    ],
+                    "url": "espacopalmeiras.pt/pt-pt/",
+                    "categories": [
+                        "museum"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "MUSEUM",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "museum"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "7",
+                    "streetName": "Travessa São Carlos",
+                    "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+                    "municipality": "Porto",
+                    "countrySecondarySubdivision": "Porto",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "4050",
+                    "extendedPostalCode": "4050-544",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Travessa São Carlos 7, 4050 Porto",
+                    "localName": "Porto"
+                },
+                "position": {
+                    "lat": 41.15167,
+                    "lon": -8.61447
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 41.15257,
+                        "lon": -8.61566
+                    },
+                    "btmRightPoint": {
+                        "lat": 41.15077,
+                        "lon": -8.61328
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.15158,
+                            "lon": -8.61445
+                        }
+                    },
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.15158,
+                            "lon": -8.61444
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "35CHCvA6jrW7NgvucHyaZg",
+                "score": 0.9772211909,
+                "dist": 302.408456,
+                "info": "search:ta:620006000748067-PT",
+                "poi": {
+                    "name": "Art Gallery/Moldursant",
+                    "categorySet": [
+                        {
+                            "id": 7317
+                        }
+                    ],
+                    "categories": [
+                        "museum"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "MUSEUM",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "museum"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "230",
+                    "streetName": "Rua de José Falcão",
+                    "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+                    "municipality": "Porto",
+                    "countrySecondarySubdivision": "Porto",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "4000",
+                    "extendedPostalCode": "4000-007",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua de José Falcão 230, 4000 Porto",
+                    "localName": "Porto"
+                },
+                "position": {
+                    "lat": 41.149888,
+                    "lon": -8.613913
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 41.15079,
+                        "lon": -8.61511
+                    },
+                    "btmRightPoint": {
+                        "lat": 41.14899,
+                        "lon": -8.61272
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 41.14992,
+                            "lon": -8.61403
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_search": {
+            "query": "farmácia",
+            "context": "Faro"
+        },
+        "found_results": [
+            {
+                "type": "POI",
+                "id": "2TgQeDgMGcjdXZMTzS8kGg",
+                "score": 0.992541194,
+                "dist": 1232.988054,
+                "info": "search:ta:620006000215933-PT",
+                "poi": {
+                    "name": "Farmácia Almeida",
+                    "phone": "+351 289 822 437",
+                    "categorySet": [
+                        {
+                            "id": 7326
+                        }
+                    ],
+                    "url": "farmacia-almeida.com/",
+                    "categories": [
+                        "pharmacy"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "PHARMACY",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "pharmacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "39",
+                    "streetName": "Estrada da Senhora da Saúde",
+                    "municipalitySubdivision": "União das Freguesias de Faro (Sé e São Pedro)",
+                    "municipality": "Faro",
+                    "countrySecondarySubdivision": "Faro",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "8005",
+                    "extendedPostalCode": "8005-148",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Estrada da Senhora da Saúde 39, 8005 Faro",
+                    "localName": "Faro"
+                },
+                "position": {
+                    "lat": 37.02573,
+                    "lon": -7.94003
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 37.02663,
+                        "lon": -7.94116
+                    },
+                    "btmRightPoint": {
+                        "lat": 37.02483,
+                        "lon": -7.9389
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 37.02573,
+                            "lon": -7.93984
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "iGXxRztSwh5ZTxEA5_y5yg",
+                "score": 0.9819784164,
+                "dist": 292.20347,
+                "info": "search:ta:620006000796581-PT",
+                "poi": {
+                    "name": "Farmácia Do Montepio",
+                    "phone": "+351 289 823 636",
+                    "categorySet": [
+                        {
+                            "id": 7326
+                        }
+                    ],
+                    "url": "www.farmaciasportuguesas.pt/catalogo/ficha-farmacia?code=01007",
+                    "categories": [
+                        "pharmacy"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "PHARMACY",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "pharmacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "55",
+                    "streetName": "Rua De Santo António",
+                    "municipalitySubdivision": "União das Freguesias de Faro (Sé e São Pedro)",
+                    "municipality": "Faro",
+                    "countrySecondarySubdivision": "Faro",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "8000",
+                    "extendedPostalCode": "8000-442",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua De Santo António 55, 8000 Faro",
+                    "localName": "Faro"
+                },
+                "position": {
+                    "lat": 37.016433,
+                    "lon": -7.932109
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 37.01733,
+                        "lon": -7.93324
+                    },
+                    "btmRightPoint": {
+                        "lat": 37.01553,
+                        "lon": -7.93098
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 37.01661,
+                            "lon": -7.93198
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "sznmXKr-URwFuTr2E3E8kQ",
+                "score": 0.9760032892,
+                "dist": 116.350843,
+                "info": "search:ta:620006000215934-PT",
+                "poi": {
+                    "name": "Farmácia Caniné-Comércio De Produtos Famacêuticos",
+                    "phone": "+351 289 822 161",
+                    "categorySet": [
+                        {
+                            "id": 7326
+                        }
+                    ],
+                    "categories": [
+                        "pharmacy"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "PHARMACY",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "pharmacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "14",
+                    "streetName": "Rua Dom Francisco Gomes",
+                    "municipalitySubdivision": "União das Freguesias de Faro (Sé e São Pedro)",
+                    "municipality": "Faro",
+                    "countrySecondarySubdivision": "Faro",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "8000",
+                    "extendedPostalCode": "8000-369",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua Dom Francisco Gomes 14, 8000 Faro",
+                    "localName": "Faro"
+                },
+                "position": {
+                    "lat": 37.016048,
+                    "lon": -7.934126
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 37.01695,
+                        "lon": -7.93525
+                    },
+                    "btmRightPoint": {
+                        "lat": 37.01515,
+                        "lon": -7.933
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 37.01541,
+                            "lon": -7.93412
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "w1Ff8W82dJEzdxQlawOZyg",
+                "score": 0.9700290561,
+                "dist": 1143.443961,
+                "info": "search:ta:620006000744479-PT",
+                "poi": {
+                    "name": "Portopédico",
+                    "phone": "+351 289 805 496",
+                    "categorySet": [
+                        {
+                            "id": 7326
+                        }
+                    ],
+                    "url": "www.portopedico.com/",
+                    "categories": [
+                        "pharmacy"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "PHARMACY",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "pharmacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "58",
+                    "streetName": "Estrada Da Penha",
+                    "municipalitySubdivision": "União das Freguesias de Faro (Sé e São Pedro)",
+                    "municipality": "Faro",
+                    "countrySecondarySubdivision": "Faro",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "8000",
+                    "extendedPostalCode": "8000-148",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Estrada Da Penha 58, 8000 Faro",
+                    "localName": "Faro"
+                },
+                "position": {
+                    "lat": 37.023127,
+                    "lon": -7.926673
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 37.02403,
+                        "lon": -7.9278
+                    },
+                    "btmRightPoint": {
+                        "lat": 37.02223,
+                        "lon": -7.92555
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 37.02288,
+                            "lon": -7.92644
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "POI",
+                "id": "poE6fN6c_T7jeYgCXfE26w",
+                "score": 0.9699044824,
+                "dist": 953.855762,
+                "info": "search:ta:620009001935503-PT",
+                "poi": {
+                    "name": "Farmácia Palma Batista",
+                    "phone": "+351 289 804 504",
+                    "categorySet": [
+                        {
+                            "id": 7326
+                        }
+                    ],
+                    "url": "www.farmaciasdeservico.net/f/19275/Farmacia_Palma_Batista/",
+                    "categories": [
+                        "pharmacy"
+                    ],
+                    "classifications": [
+                        {
+                            "code": "PHARMACY",
+                            "names": [
+                                {
+                                    "nameLocale": "en-US",
+                                    "name": "pharmacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "address": {
+                    "streetNumber": "157",
+                    "streetName": "Rua do Alportel",
+                    "municipalitySubdivision": "União das Freguesias de Faro (Sé e São Pedro)",
+                    "municipality": "Faro",
+                    "countrySecondarySubdivision": "Faro",
+                    "countrySubdivision": "Continental Portugal",
+                    "postalCode": "8000",
+                    "extendedPostalCode": "8000-448",
+                    "countryCode": "PT",
+                    "country": "Portugal",
+                    "countryCodeISO3": "PRT",
+                    "freeformAddress": "Rua do Alportel 157, 8000 Faro",
+                    "localName": "Faro"
+                },
+                "position": {
+                    "lat": 37.0237,
+                    "lon": -7.9326
+                },
+                "viewport": {
+                    "topLeftPoint": {
+                        "lat": 37.0246,
+                        "lon": -7.93373
+                    },
+                    "btmRightPoint": {
+                        "lat": 37.0228,
+                        "lon": -7.93147
+                    }
+                },
+                "entryPoints": [
+                    {
+                        "type": "main",
+                        "position": {
+                            "lat": 37.02375,
+                            "lon": -7.93272
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

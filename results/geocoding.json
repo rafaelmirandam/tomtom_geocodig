@@ -1,0 +1,148 @@
+[
+  {
+    "original_address": "Avenida da Liberdade, 190, Lisboa",
+    "api_result": [
+      {
+        "type": "Point Address",
+        "id": "Lo9b2_x9pWTTq_fpLEm3GQ",
+        "score": 10.4344320297,
+        "matchConfidence": {
+          "score": 1
+        },
+        "address": {
+          "streetNumber": "190",
+          "streetName": "Avenida da Liberdade",
+          "municipalitySubdivision": "Santo António",
+          "municipality": "Lisbon",
+          "countrySecondarySubdivision": "Lisbon",
+          "countrySubdivision": "Continental Portugal",
+          "countrySubdivisionName": "Continental Portugal",
+          "postalCode": "1250",
+          "extendedPostalCode": "1250-147",
+          "countryCode": "PT",
+          "country": "Portugal",
+          "countryCodeISO3": "PRT",
+          "freeformAddress": "Avenida da Liberdade 190, 1250 Lisbon",
+          "localName": "Lisbon"
+        },
+        "position": {
+          "lat": 38.7207335,
+          "lon": -9.1453844
+        },
+        "viewport": {
+          "topLeftPoint": {
+            "lat": 38.72163,
+            "lon": -9.14654
+          },
+          "btmRightPoint": {
+            "lat": 38.71983,
+            "lon": -9.14423
+          }
+        },
+        "entryPoints": [
+          {
+            "type": "main",
+            "position": {
+              "lat": 38.72068,
+              "lon": -9.14549
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_address": "Rua de Santa Catarina, 500, Porto",
+    "api_result": [
+      {
+        "type": "Point Address",
+        "id": "b0Wo828FYb3RZ-wM8I9viw",
+        "score": 12.5763053894,
+        "matchConfidence": {
+          "score": 1
+        },
+        "address": {
+          "streetNumber": "500",
+          "streetName": "Rua de Santa Catarina",
+          "municipalitySubdivision": "União das Freguesias de Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória",
+          "municipality": "Porto",
+          "countrySecondarySubdivision": "Porto",
+          "countrySubdivision": "Continental Portugal",
+          "countrySubdivisionName": "Continental Portugal",
+          "postalCode": "4000",
+          "extendedPostalCode": "4000-445",
+          "countryCode": "PT",
+          "country": "Portugal",
+          "countryCodeISO3": "PRT",
+          "freeformAddress": "Rua de Santa Catarina 500, 4000 Porto",
+          "localName": "Porto"
+        },
+        "position": {
+          "lat": 41.1505285,
+          "lon": -8.6054463
+        },
+        "viewport": {
+          "topLeftPoint": {
+            "lat": 41.15143,
+            "lon": -8.60664
+          },
+          "btmRightPoint": {
+            "lat": 41.14963,
+            "lon": -8.60425
+          }
+        },
+        "entryPoints": [
+          {
+            "type": "main",
+            "position": {
+              "lat": 41.15054,
+              "lon": -8.60552
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "original_address": "Praça do Giraldo, Évora",
+    "api_result": [
+      {
+        "type": "Street",
+        "id": "rhGJVHRyOpvrjgPfBZnSOw",
+        "score": 6.0373015404,
+        "matchConfidence": {
+          "score": 0.8613576200750441
+        },
+        "address": {
+          "streetName": "Praça de Giraldo",
+          "municipalitySubdivision": "União das Freguesias de Évora (São Mamede, Sé, São Pedro e Santo Antão)",
+          "municipality": "Évora",
+          "countrySecondarySubdivision": "Évora",
+          "countrySubdivision": "Continental Portugal",
+          "countrySubdivisionName": "Continental Portugal",
+          "postalCode": "7000, 7005",
+          "extendedPostalCode": "7000-508, 7005-508",
+          "countryCode": "PT",
+          "country": "Portugal",
+          "countryCodeISO3": "PRT",
+          "freeformAddress": "Praça de Giraldo, 7000, 7005 Évora",
+          "localName": "Évora"
+        },
+        "position": {
+          "lat": 38.5707979,
+          "lon": -7.9095665
+        },
+        "viewport": {
+          "topLeftPoint": {
+            "lat": 38.57125,
+            "lon": -7.90992
+          },
+          "btmRightPoint": {
+            "lat": 38.57038,
+            "lon": -7.90892
+          }
+        }
+      }
+    ]
+  }
+]

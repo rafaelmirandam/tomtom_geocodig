@@ -1,99 +1,154 @@
-# Geocodificação de Endereços em Lote com TomTom API
+# TomTom Geocoding API Scripts
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Este projeto contém um script Python que automatiza a geocodificação de múltiplos endereços listados em um arquivo CSV. Ele utiliza a API de Lote (Batch API) da TomTom para processar os endereços de forma eficiente e segura.
+This project provides a collection of Python scripts for interacting with the TomTom Search APIs, offering different methods for converting addresses into geographic coordinates and searching for points of interest.
 
-## Funcionalidades
+## Features
 
--   **Leitura de CSV:** Lê uma lista de endereços a partir de um arquivo `enderecos.csv`.
--   **Processamento em Lote:** Envia todos os endereços em uma única requisição para a API da TomTom, otimizando o tempo e o número de chamadas.
--   **Gerenciamento de API Key:** Utiliza um arquivo `.env` para gerenciar a chave da API de forma segura, mantendo-a fora do código-fonte.
--   **Exportação de Resultados:** Salva a resposta completa da API, com as coordenadas e outros detalhes, em um arquivo `resultados_geocodificacao.json`.
+The project includes three main scripts:
 
-## Pré-requisitos
+1.  **Looping Geocoding:** Converts a list of addresses from a CSV file into coordinates by making an API request for each address.
+2.  **Looping Fuzzy Search:** Searches for points of interest (e.g., "restaurant") near a reference location, reading data from a CSV file.
+3.  **Batch Geocoding (Batch API):** The most efficient way to geocode a large volume of addresses by sending them all in a single API request.
 
-Antes de começar, você precisará ter:
+## Project Structure
 
--   [Python](https://www.python.org/downloads/) (versão 3.8 ou superior)
--   [Git](https://git-scm.com/downloads/)
--   Uma chave de API válida da [TomTom Developer Portal](https://developer.tomtom.com/).
+```
+tomtom_geocoding/
+├── .env
+├── requirements.txt
+├── geocoding_search.py
+├── fuzzy_search.py
+├── batch_search.py
+├── data/
+│   ├── addresses_geocoding.csv
+│   ├── addresses_fuzzy.csv
+│   └── addresses_batch.csv
+├── results/
+│   ├── geocoding.json
+│   ├── fuzzy.json
+│   └── geocoding_batch_api.json
+└── README.md
+```
 
-## Instalação
+## General Setup and Installation
 
-Siga os passos abaixo para configurar o ambiente do projeto:
+1.  **Clone the repository** and navigate to the project folder.
 
-1.  **Clone o repositório:**
+2.  **(Recommended) Create and activate a virtual environment:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
-    ```
-
-2.  **(Recomendado) Crie e ative um ambiente virtual:**
-    ```bash
-    # Para Windows
-    python -m venv venv
-    .\venv\Scripts\activate
-
-    # Para macOS/Linux
+    # For macOS/Linux
     python3 -m venv venv
     source venv/bin/activate
+
+    # For Windows
+    python -m venv venv
+    .\venv\Scripts\activate
     ```
 
-3.  **Instale as dependências do projeto:**
+3.  **Install dependencies:**
+    (Ensure your `requirements.txt` contains `pandas`, `requests`, and `python-dotenv`)
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Configure sua chave de API:**
-    Crie uma cópia do arquivo de exemplo `.env.example` e renomeie-a para `.env`.
-    ```bash
-    # No Windows (prompt de comando)
-    copy .env.example .env
-
-    # No macOS/Linux
-    cp .env.example .env
-    ```
-    Em seguida, abra o arquivo `.env` e insira sua chave da API da TomTom.
-
-    **`.env`**
+4.  **Set up your API key:**
+    Create a `.env` file in the project root and add your key.
     ```env
-    TOMTOM_API_KEY="SUA_CHAVE_DE_API_REAL_AQUI"
+    TOMTOM_API_KEY="YOUR_REAL_API_KEY_HERE"
     ```
 
-## Como Usar
+---
 
-1.  **Prepare seus dados de entrada:**
-    Abra o arquivo `enderecos.csv` e adicione os endereços que deseja geocodificar, um por linha, sob a coluna `endereco`.
+## How to Use
 
-    **`enderecos.csv`**
+Choose the script that corresponds to the task you want to perform.
+
+### 1. Looping Geocoding
+
+Ideal for small to medium-sized lists of addresses.
+
+-   **Script:** `geocoding_search.py`
+-   **Input File:** `data/addresses_geocoding.csv`
+-   **Output File:** `results/geocoding.json`
+
+**Steps:**
+
+1.  Create the `data/addresses_geocoding.csv` file with the following structure:
     ```csv
-    endereco
+    address
+    "Avenida da Liberdade, 190, Lisboa"
+    "Rua de Santa Catarina, 500, Porto"
+    "Praça do Giraldo, Évora"
+    ```
+2.  Run the script:
+    ```bash
+    python geocoding_search.py
+    ```
+3.  **Example Output (`results/geocoding.json`):**
+    ```json
+    [
+      {
+        "query": "Avenida da Liberdade, 190, Lisboa",
+        "latitude": 38.71986,
+        "longitude": -9.14312
+      },
+      {
+        "query": "Rua de Santa Catarina, 500, Porto",
+        "latitude": 41.15076,
+        "longitude": -8.60553
+      }
+    ]
+    ```
+
+### 2. Looping Fuzzy Search
+
+Perfect for finding types of places (POIs) near different cities or addresses.
+
+-   **Script:** `fuzzy_search.py`
+-   **Input File:** `data/addresses_fuzzy.csv`
+-   **Output File:** `results/fuzzy.json`
+
+**Steps:**
+
+1.  Create the `data/addresses_fuzzy.csv` file with `query` and `context` columns:
+    ```csv
+    query,context
+    "restaurante italiano","Avenida da Liberdade, Lisboa"
+    "museu","Porto, Portugal"
+    "farmácia","Faro"
+    ```
+2.  Run the script:
+    ```bash
+    python fuzzy_search.py
+    ```
+
+### 3. Batch Geocoding (Using the Batch API)
+
+The best option for quickly and efficiently geocoding a large volume of addresses.
+
+-   **Script:** `batch_search.py`
+-   **Input File:** `data/addresses_batch.csv`
+-   **Output File:** `results/geocoding_batch_api.json`
+
+**Steps:**
+
+1.  Create the `data/addresses_batch.csv` file with a single `address` column:
+    ```csv
+    address
     "Avenida Paulista, 1578, São Paulo, SP"
     "Praça da Sé, s/n, São Paulo, SP"
     "Rua do Russel, 632, Rio de Janeiro, RJ"
     ```
-
-2.  **Execute o script:**
-    Com o ambiente virtual ativado e as dependências instaladas, execute o seguinte comando no seu terminal:
+2.  Run the script:
     ```bash
-    python find_address.py
+    python batch_search.py
     ```
 
-3.  **Verifique os resultados:**
-    Após a execução, um novo arquivo chamado `resultados_geocodificacao.json` será criado na pasta do projeto, contendo a resposta da API para cada endereço solicitado.
+---
 
-## Estrutura do Projeto
-    |
-    ├── .gitignore          # Arquivos e pastas a serem ignorados pelo Git
-    ├── .env.example        # Arquivo de exemplo para variáveis de ambiente
-    ├── .env                # (Local) Arquivo com sua chave de API (ignorado pelo Git)
-    ├── requirements.txt    # Lista de dependências Python do projeto
-    ├── enderecos.csv       # (Local) Sua lista de endereços para geocodificar
-    ├── buscar_enderecos_corrigido.py # O script principal
-    └── README.md           # Este arquivo
+## License
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
